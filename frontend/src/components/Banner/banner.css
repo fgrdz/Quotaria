@@ -1,0 +1,15 @@
+.container-banner{
+    height: 100px;
+    padding: 10px;
+    background-color: #2F4F4F	;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-banner h1{
+    text-align: center;
+    font-size: 40px;
+    
+}

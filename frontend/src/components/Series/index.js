@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import api from '../../services/api';
 import Quote from '../Quote';
+import './series.css'
 
 const Series = () => {
   const [series, setSeries] = useState([]);
@@ -36,7 +37,7 @@ const Series = () => {
   }
 
   return (
-    <div>
+    <div className='container-series'>
       <select onChange={handleChange}>
         <option value=''>Selecione uma série</option>
         {Array.isArray(series) &&
