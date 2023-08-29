@@ -1,9 +1,11 @@
+import './quote.css'
 const Quote = ({series, quote, author})=>{
     return (
-        <div>
-            <p>{series}</p>
+        <div className='container-quote'>
+            <h3 >{series}</h3>
             <p>{quote}</p>
             <p>{author}</p>
+            <div className='glitch'></div>
         </div>
     )
 }
